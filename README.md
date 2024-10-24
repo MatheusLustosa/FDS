@@ -57,7 +57,7 @@ O AlphaTech Educacional será um portal acadêmico inovador, projetado para ofer
     <li><a href="https://www.youtube.com/watch?v=qXClMq3jBNc">Screencast do Protótipo Lo-Fi da Sprint 2</a></li>
     <li><a href="https://youtu.be/AvaXF9_lieA?si=TchtwCMdaPlraZcD">Screencast dos Testes - Sprint 1 e 2</a></li>
     <li><a href="https://www.figma.com/design/7uEuFDZ5T9I2HeTYMGfnR9/FDS-Entrega-1?node-id=0-1&t=nimLCI6xdHeemn50-1">Protótipo Lo-Fi & Sketchboard - Figma - Sprint 2</a></li>
-    <li><a href="imgdump2/sprint-entrega-3-(1).png">Print do Quadro da Sprint 2 </a></li>
+    <li><a href="imgdump2/quadro-sprint2.png">Print do Quadro da Sprint 2 </a></li>
 </ul>
 </details>
 
