@@ -25,6 +25,7 @@ O AlphaTech Educacional será um portal acadêmico inovador, projetado para ofer
 -  [Protótipo Lo-Fi & Sketchboard - Figma](https://www.figma.com/design/7uEuFDZ5T9I2HeTYMGfnR9/FDS-Entrega-1?node-id=0-1&t=nimLCI6xdHeemn50-1)
 - [Site](https://alphatech-btdjdsgcg6dff6f4.brazilsouth-01.azurewebsites.net)
 - [Instruções de Uso](https://docs.google.com/document/d/1c1OgO7LOwW2Inl0H0sZEEPRcILvZiO6kl6c-bOLQv3Y/edit?usp=sharing)
+- [Repositório que tem os testes](https://github.com/pedroguswander/FDS)
 
 ## 📦 Entregas
 
