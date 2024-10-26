@@ -1,4 +1,10 @@
-<h1 align="center">AlphaTech Educacional <img src="https://github.com/user-attachments/assets/47d54f58-3607-488c-9df2-8646c6bfe1fe" alt="Descrição da imagem" width="30"/></h1> 
+<div align="center">
+<img src="https://github.com/user-attachments/assets/63de21b1-4a13-4c3c-9085-8fb93827e6fb" width="200px"style=> 
+</div>
+
+
+
+<h1 align="center">AlphaTech Educacional </h1> 
 
 O AlphaTech Educacional será um portal acadêmico inovador, projetado para oferecer uma plataforma completa para instituições de ensino e alunos. O objetivo é facilitar o acesso a conteúdos educacionais, matrículas, notas e acompanhamento de desempenho acadêmico. Através de uma interface amigável e intuitiva, alunos poderão acessar recursos de aprendizado, realizar avaliações e monitorar seu progresso. Instituições poderão gerenciar turmas, cursos e materiais de forma centralizada, oferecendo uma experiência de ensino mais eficiente e personalizada para todos os envolvidos.
 
