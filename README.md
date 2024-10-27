@@ -4,9 +4,9 @@
 
 
 
-## AlphaTech Educacional 
+## AlphaTech University 
 
-O AlphaTech Educacional será um portal acadêmico inovador, projetado para oferecer uma plataforma completa para instituições de ensino e alunos. O objetivo é facilitar o acesso a conteúdos educacionais, matrículas, notas e acompanhamento de desempenho acadêmico. Através de uma interface amigável e intuitiva, alunos poderão acessar recursos de aprendizado, realizar avaliações e monitorar seu progresso. Instituições poderão gerenciar turmas, cursos e materiais de forma centralizada, oferecendo uma experiência de ensino mais eficiente e personalizada para todos os envolvidos.
+O AlphaTech University será um portal acadêmico inovador, projetado para oferecer uma plataforma completa para instituições de ensino e alunos. O objetivo é facilitar o acesso a conteúdos educacionais, matrículas, notas e acompanhamento de desempenho acadêmico. Através de uma interface amigável e intuitiva, alunos poderão acessar recursos de aprendizado, realizar avaliações e monitorar seu progresso. Instituições poderão gerenciar turmas, cursos e materiais de forma centralizada, oferecendo uma experiência de ensino mais eficiente e personalizada para todos os envolvidos.
 
 ## Funcionalidades Implementadas
 
