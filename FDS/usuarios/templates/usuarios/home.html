@@ -89,7 +89,7 @@
                 <h2>Avisos Acadêmicos:</h2>
                 <ul>
                     {% for aviso in avisos %}
-                        <li><strong>{{ aviso.titulo }}</strong>: {{ aviso.conteudo }} ({{ aviso.data_criacao }})</li>
+                        <li><strong>{{ aviso.titulo }}:</strong><br>{{ aviso.conteudo }} <br>Data de emissão: {{ aviso.data_criacao }}</li>
                     {% empty %}
                         <li>Não há avisos acadêmicos no momento.</li>
                     {% endfor %}
