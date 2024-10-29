@@ -77,7 +77,7 @@ O AlphaTech University será um portal acadêmico inovador, projetado para ofere
 [Pedro Gusmão](https://github.com/pedroguswander)
 [Rodrigo Guimarães](https://github.com/Rodrigo-Guimaraes-P)
 
-# Contribuição
+## ✨ Contribuição
 <a href="https://github.com/MatheusLustosa/FDS/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=MatheusLustosa/FDS" />
 </a>
