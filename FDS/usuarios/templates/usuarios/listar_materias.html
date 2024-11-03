@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    {% load static %}
+    <link rel="icon" href="{% static 'alpha.ico' %}" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matérias</title>
@@ -59,12 +61,14 @@
     <div id="wrapper">
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
+            <div align="center">
+                <img src="{% static 'alphag.gif' %}" width="150px" alt="Descrição do GIF" />
+            </div>
             <div class="sidebar-heading">Menu</div>
             <div class="list-group list-group-flush">
                 <a href="{% url 'home' %}" class="list-group-item list-group-item-action">Home</a>
-                <a href="#" class="list-group-item list-group-item-action">Boletim</a>
-                <a href="#" class="list-group-item list-group-item-action">Frequência</a>
-                {% comment %} <a href="{% url 'calendario' mes ano  %}" class="list-group-item list-group-item-action">Calendário</a> {% endcomment %}
+                <a href="#" class="list-group-item list-group-item-action">Frequência e Boletim</a>
+                <a href="{% url 'home' %}" class="list-group-item list-group-item-action">Calendário</a>
                 <a href="{% url 'nova_solicitacao' %}" class="list-group-item list-group-item-action">Serviços</a>
                 <a href="{% url 'usuario' %}" class="list-group-item list-group-item-action">Dados Pessoais</a>
             </div>
@@ -84,14 +88,29 @@
                         <li class="list-group-item">
                             <h3>{{ materia.nome }}</h3>
                             <p>{{ materia.descricao }}</p>
-    
+
+                        
+
+                            <h4>Horários:</h4>
+                            <ul>
+                                {% for horario in materia.horarios.all %}
+                                    <li>{{ horario.dia }}: {{ horario.hora_inicio }} - {{ horario.hora_fim }}</li>
+                                    <h1> </h1>
+                                {% empty %}
+                                    <li>Não há horários cadastrados.</li>
+                                    <h1> </h1>
+                                {% endfor %}
+                            </ul>
                             {% if is_professor %}
-                                <div id="div">
+                                <div>
+                                    <a href="{% url 'adicionar_horario' materia.id %}" class="btn btn-info btn-sm">Adicionar Horário</a>
                                     <a href="{% url 'adicionar_faltas' materia.id %}" class="btn btn-warning btn-sm">Adicionar Faltas</a>
                                     <a href="{% url 'adicionar_notas' materia.id %}" class="btn btn-success btn-sm">Adicionar Notas</a>
                                 </div>
                             {% endif %}
                         </li>
+                    {% empty %}
+                        <li class="list-group-item">Nenhuma matéria cadastrada.</li>
                     {% endfor %}
                 </ul>
                 
@@ -102,7 +121,6 @@
                             <th>Data</th>
                             <th>Matéria</th>
                             <th>Faltas</th>
-                            
                         </tr>
                     </thead>
                     <tbody>
@@ -138,7 +156,7 @@
                         </tr>
                         {% empty %}
                         <tr>
-                            <td colspan="2">Nenhuma nota registrada.</td>
+                            <td colspan="3">Nenhuma nota registrada.</td>
                         </tr>
                         {% endfor %}
                     </tbody>
