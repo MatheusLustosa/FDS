@@ -14,16 +14,47 @@ describe('Teste de aluno visualizar informações da faculdade', () => {
         cy.get('button').click()
     })
 
+    before(() => {
+        cy.visit('/');
+        cy.get('p > a').click();
+        cy.get('form > :nth-child(2) > input').type('1212');
+        cy.get(':nth-child(3) > input').type('Gustavo');
+        cy.get(':nth-child(4) > input').type('60');
+        cy.get(':nth-child(5) > select').select('Professor');
+        cy.get(':nth-child(6) > input').type('Design');
+        cy.get(':nth-child(7) > input').type('Cais do Apolo 463');
+        cy.get(':nth-child(8) > select').select('2024.1');
+        cy.get(':nth-child(9) > input').type('123');
+        cy.get(':nth-child(10) > input').type('123');
+        cy.get('button').click()
+    })
+
     beforeEach(() => {
         cy.visit('/');
-        cy.get('form > :nth-child(2) > input').type('0102');
+        cy.get('form > :nth-child(2) > input').type('1212');
         cy.get(':nth-child(3) > input').type('123');
         cy.get('button').click();
-        cy.get('#menu-toggle').click();
-        cy.get('[href="/calendario/10/2024/"]').click();
     })
-    
+
+    it('Visualizar todos os campos de um aviso registrado', () => {
+        cy.get('.btn-primary').click();
+        cy.get('#titulo').type('Tech design');
+        cy.get('#conteudo').type('Evento para apresentação de vários projetos');
+        cy.get('input[type="date"]').type('2024-10-16');
+        cy.get('#ativo').click();
+        cy.get('.btn').click();
+        cy.contains('Tech design').should('be.visible');
+        cy.contains('Evento para apresentação de vários projetos').should('be.visible');
+        cy.contains('Oct. 30, 2024, 7:42 p.m.').should('be.visible');
+    })
+
     it('Mensagem "não ativa" não deve ser visualizado por aluno', () => {
+        cy.get('.btn').click();
+        cy.get('#titulo').type('Tech design');
+        cy.get('#conteudo').type('Evento para apresentação de vários projetos');
+        cy.get('input[type="date"]').type('2024-10-16');
+        cy.get('.btn').click();
+        cy.get('#sem_avisos').should('be.visible');
         
     })
 })
