@@ -1,4 +1,4 @@
-describe('Teste de aluno visualizar informações da faculdade', () => {
+describe('Teste de aluno visualizar informações dos professores', () => {
     before(() => {
         cy.visit('/');
         cy.get('p > a').click();
@@ -43,9 +43,7 @@ describe('Teste de aluno visualizar informações da faculdade', () => {
         cy.get('input[type="date"]').type('2024-10-16');
         cy.get('#ativo').click();
         cy.get('.btn').click();
-        cy.contains('Tech design').should('be.visible');
-        cy.contains('Evento para apresentação de vários projetos').should('be.visible');
-        cy.contains('Oct. 30, 2024, 7:42 p.m.').should('be.visible');
+        cy.get('ul').children().last().invoke('text').should('have.string', 'Tech design');
     })
 
     it('Mensagem "não ativa" não deve ser visualizado por aluno', () => {

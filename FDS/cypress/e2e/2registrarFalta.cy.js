@@ -41,7 +41,7 @@ describe('Teste de registrar presença/falta dos alunos e consultar faltas', () 
     })
 
     it('Número de faltas menor que zero', () => {
-        cy.get(':nth-child(1) > #div > .btn-warning').click()
+        cy.get(':nth-child(1) > div > .btn-warning').click()
         cy.get('#aluno').select('Pedro');
         cy.get('#faltas').type(-1);
         cy.get('.btn').click();
@@ -49,7 +49,7 @@ describe('Teste de registrar presença/falta dos alunos e consultar faltas', () 
     })
 
     it('Número de faltas maior que a quantidade máxima permitida', () => {
-        cy.get(':nth-child(1) > #div > .btn-warning').click()
+        cy.get(':nth-child(1) > div > .btn-warning').click()
         cy.get('#aluno').select('Pedro');
         cy.get('#faltas').type(16);
         cy.get('.btn').click();

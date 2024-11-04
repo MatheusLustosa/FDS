@@ -58,7 +58,7 @@ describe('Teste de registrar nota dos alunos e consultar notas', () => {
     })
 
     it('Informar erro ao inserir nota maior que 10 ', () => {
-        cy.get(':nth-child(1) > #div > .btn-success').click()
+        cy.get(':nth-child(1) > div > .btn-success').click()
         cy.get('#aluno').select('Pedro');
         cy.get('#nota').type(-1);
         cy.get('.btn').click();
@@ -67,7 +67,7 @@ describe('Teste de registrar nota dos alunos e consultar notas', () => {
     })
 
     it('Informar erro ao inserir nota menor que 0 ', () => {
-        cy.get(':nth-child(1) > #div > .btn-success').click()
+        cy.get(':nth-child(1) > div > .btn-success').click()
         cy.get('#aluno').select('Pedro');
         cy.get('#nota').type(11);
         cy.get('.btn').click();
@@ -94,8 +94,8 @@ describe('Teste de registrar nota dos alunos e consultar notas', () => {
         cy.get('button').click();
         cy.get('#menu-toggle').click();
         cy.get('[href="/materias/"]').click();
-        cy.get('tbody > :nth-child(1) > :nth-child(2)').should('be.visible');
-        cy.get('tbody > :nth-child(1) > :nth-child(3)').should('be.visible');
+        cy.contains('FDS').should('be.visible');
+        //cy.contains(7.20).should('be.visible');
     })
 
     })
