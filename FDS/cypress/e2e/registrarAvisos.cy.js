@@ -47,12 +47,36 @@ describe('Teste de aluno visualizar informações dos professores', () => {
     })
 
     it('Mensagem "não ativa" não deve ser visualizado por aluno', () => {
-        cy.get('.btn').click();
+        cy.get('.btn-primary').click();
         cy.get('#titulo').type('Tech design');
         cy.get('#conteudo').type('Evento para apresentação de vários projetos');
         cy.get('input[type="date"]').type('2024-10-16');
         cy.get('.btn').click();
-        cy.get('#sem_avisos').should('be.visible');
-        
+        cy.get('ul').children().should('have.length', 1);    
+    })
+
+    after(() => {
+        cy.visit('/admin/');
+        cy.get('#id_username').type('pedrogusmao');
+        cy.get('#id_password').type('123');
+        cy.get('.submit-row > input').click();
+        cy.get('#auth-user > a').click();
+        cy.get('#searchbar').type('1212');
+        cy.get('#changelist-search > div > [type="submit"]').click();
+        cy.get('.action-select').click();
+        cy.get('select').select('Delete selected users');
+        cy.get('.button').click();
+        cy.get('div > [type="submit"]').click();
+    })
+
+    after(() => {
+        cy.visit('/admin/');
+        cy.get('#auth-user > a').click();
+        cy.get('#searchbar').type('0102');
+        cy.get('#changelist-search > div > [type="submit"]').click();
+        cy.get('.action-select').click();
+        cy.get('select').select('Delete selected users');
+        cy.get('.button').click();
+        cy.get('div > [type="submit"]').click();
     })
 })

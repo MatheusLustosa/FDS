@@ -47,4 +47,35 @@ describe('Teste de aluno visualizar horários das disciplinas', () => {
         cy.get(':nth-child(1) > ul').children().last().invoke('text').should('have.string', 'segunda e quarta');
     })
 
+    it('Avisar que todas as entradas não foram preenchidas', () => {
+        cy.get(':nth-child(1) > div > .btn-info').click();
+        cy.get('.btn').click();
+        cy.get('.alert').should('be.visible')
+    })
+
+    after(() => {
+        cy.visit('/admin/');
+        cy.get('#id_username').type('pedrogusmao');
+        cy.get('#id_password').type('123');
+        cy.get('.submit-row > input').click();
+        cy.get('#auth-user > a').click();
+        cy.get('#searchbar').type('1234');
+        cy.get('#changelist-search > div > [type="submit"]').click();
+        cy.get('.action-select').click();
+        cy.get('select').select('Delete selected users');
+        cy.get('.button').click();
+        cy.get('div > [type="submit"]').click();
+    })
+
+    after(() => {
+        cy.visit('/admin/');
+        cy.get('#auth-user > a').click();
+        cy.get('#searchbar').type('0102');
+        cy.get('#changelist-search > div > [type="submit"]').click();
+        cy.get('.action-select').click();
+        cy.get('select').select('Delete selected users');
+        cy.get('.button').click();
+        cy.get('div > [type="submit"]').click();
+    })
+
 })
