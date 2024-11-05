@@ -69,13 +69,15 @@ O AlphaTech University será um portal acadêmico inovador, projetado para ofere
 </details>
 
 ## 🙋‍♂️ Criado por:
-[Arthur Xavier](https://github.com/arthurxavi)
-[Augusto Barbosa](https://github.com/AugustoBarbosa87)
-[Felipe Andrade](https://github.com/felipeandrader)
-[Guilherme Vinícius](https://github.com/GuilhermeRangelSilva)
-[Matheus Lustosa](https://github.com/MatheusLustosa)
-[Pedro Gusmão](https://github.com/pedroguswander)
-[Rodrigo Guimarães](https://github.com/Rodrigo-Guimaraes-P)
+
+- **Arthur Xavier** - <a href="mailto:axrm@cesar.school"><img src="https://github.com/user-attachments/assets/d910e050-b74b-4dfd-9c58-bd3e6be60e8b" width="25"></a> - <a href="https://www.linkedin.com/in/arthur-xavier-143389304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="20"></a>
+- **Augusto Barbosa** - <a href="mailto:abc4@cesar.school"><img src="https://github.com/user-attachments/assets/d910e050-b74b-4dfd-9c58-bd3e6be60e8b" width="25"></a> - <a href="https://br.linkedin.com/in/augusto-barbosa-90550b2b8"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="20"></a>
+- **Pedro Gusmão** - <a href="mailto:fafhcavalcanti@gmail.com"><img src="https://github.com/user-attachments/assets/d910e050-b74b-4dfd-9c58-bd3e6be60e8b" width="25"></a> - <a href="https://www.linkedin.com/in/fernando-augusto-cavalcanti/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="20"></a>
+- **Matheus Lustosa** - <a href="mailto:mclc3@cesar.school"><img src="https://github.com/user-attachments/assets/d910e050-b74b-4dfd-9c58-bd3e6be60e8b" width="25"></a> - <a href="https://www.linkedin.com/in/matheus-lustosa-827010242/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="20"></a>
+- **Felipe Andrade** - <a href="mailto:rsb2@cesar.school"><img src="https://github.com/user-attachments/assets/d910e050-b74b-4dfd-9c58-bd3e6be60e8b" width="25"></a> - <a href="
+https://www.linkedin.com/in/rodrigo-souza-28682b2b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="20"></a>
+- **Rodrigo Guimarães** - <a href="mailto:rgp2@cesar.school"><img src="https://github.com/user-attachments/assets/d910e050-b74b-4dfd-9c58-bd3e6be60e8b" width="25"></a> - <a href="https://www.linkedin.com/in/rodrigo-guimar%C3%A3es-6aa431201/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="20"></a>
+- **Guilherme** - <a href="mailto:@cesar.school"><img src="https://github.com/user-attachments/assets/d910e050-b74b-4dfd-9c58-bd3e6be60e8b" width="25"></a> - <a href="https://www.linkedin.com/in/rodrigo-guimar%C3%A3es-6aa431201/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="20"></a>
 
 ## ✨ Contribuição
 <a href="https://github.com/MatheusLustosa/FDS/graphs/contributors">
