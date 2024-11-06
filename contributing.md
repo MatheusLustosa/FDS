@@ -1,4 +1,5 @@
-# Contributing
+# Contribuindo para o Projeto AlphaTech University <img src="https://github.com/user-attachments/assets/927439f6-8b7f-4532-aee0-90f9a1c79256" alt="alphafundo" width="50" style="float:left; margin-right:10px;">
+
 Este guia foi criado para novos colaboradores do projeto SmartSchool, detalhando o processo de configuração do ambiente, ferramentas necessárias e o fluxo de trabalho recomendado para garantir uma colaboração eficiente e organizada.
 
 ## Índice
