@@ -2,17 +2,24 @@
 Este guia foi criado para novos colaboradores do projeto SmartSchool, detalhando o processo de configuração do ambiente, ferramentas necessárias e o fluxo de trabalho recomendado para garantir uma colaboração eficiente e organizada.
 
 ## Índice
-1. [Criando sua conta no GitHub](#criando-sua-conta-no-github)
-2. [Clonando o Repositório](#clonando-o-repositório)
-3. [Configuração Inicial do Ambiente](#configuração-inicial-do-ambiente)
-4. [Fluxo de Trabalho no Git](#fluxo-de-trabalho-no-git)
-5. [Solicitando Permissão para Commitar](#solicitando-permissão-para-commitar)
-6. [Ferramentas Externas Necessárias](#ferramentas-externas-necessárias)
-7. [Solicitação de Merge da Branch Prod para a Main](#solicitação-de-merge-da-branch-prod-para-a-main)
-8. [Acessando a Aplicação na Azure](#acessando-a-aplicação-na-azure)
+1. [Pré-requisitos](#pré-requisitos)
+2. [Criando sua conta no GitHub](#criando-sua-conta-no-github)
+3. [Clonando o Repositório](#clonando-o-repositório)
+4. [Configuração Inicial do Ambiente](#configuração-inicial-do-ambiente)
+5. [Fluxo de Trabalho no Git](#fluxo-de-trabalho-no-git)
+6. [Solicitando Permissão para Commitar](#solicitando-permissão-para-commitar)
+7. [Ferramentas Externas Necessárias](#ferramentas-externas-necessárias)
+8. [Solicitação de Merge da Branch Prod para a Main](#solicitação-de-merge-da-branch-prod-para-a-main)
+9. [Acessando a Aplicação na Azure](#acessando-a-aplicação-na-azure)
+
+## Pré-requisitos
+Antes de começar, certifique-se de ter o seguinte instalado na sua máquina:
+
+- [Python](https://www.python.org/downloads/)
+- [Git](https://git-scm.com/downloads)
+- [VScode](https://code.visualstudio.com/download)
 
 ---
-
 ## Criando sua conta no GitHub
 O primeiro passo é criar uma conta no GitHub seguindo as instruções abaixo:
 
