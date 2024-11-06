@@ -29,7 +29,7 @@ Abra o terminal do Git Bash e siga os passos abaixo:
     ```
 2. Clone o repositório:
     ```bash
-    git clone https://github.com/Manuelaamorim/SmartSchool.git
+    git clone https://github.com/MatheusLustosa/FDS.git
     ```
 
 ---
@@ -55,7 +55,7 @@ Após acessar o código, configure seu ambiente seguindo as etapas abaixo:
     ```
 5. **Criando arquivos de migração para o banco de dados:**
     ```bash
-    python manage.py makemigrations appsmartschool
+    python manage.py makemigrations usuarios
     ```
 6. **Aplicando as migrações ao banco de dados:**
     ```bash
