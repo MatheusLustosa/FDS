@@ -67,6 +67,13 @@ O AlphaTech University será um portal acadêmico inovador, projetado para ofere
     <li><a href="imgdump2/backlog-sprint2.png">Print do Backlog da Sprint 2 </a></li>
 </ul>
 </details>
+<details>
+<summary>Entrega 4</summary>
+<ul>
+    <li><a href="https://github.com/MatheusLustosa/FDS/blob/main/contributing.md">contributing.md</a></li>
+    <li><a href="https://youtu.be/bRqVHxtG86Q">Screencast do Protótipo Lo-Fi da Sprint 3</a></li>
+</ul>
+</details>
 
 ## 🙋‍♂️ Criado por:
 
@@ -76,7 +83,7 @@ O AlphaTech University será um portal acadêmico inovador, projetado para ofere
 - **Pedro Gusmão** - <a href="mailto:padg@cesar.school"><img src="https://github.com/user-attachments/assets/d910e050-b74b-4dfd-9c58-bd3e6be60e8b" width="25"></a> - <a href="https://github.com/MatheusLustosa/FDS"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="20"></a>
 - **Felipe Andrade** - <a href="mailto:frca2@cesar.school"><img src="https://github.com/user-attachments/assets/d910e050-b74b-4dfd-9c58-bd3e6be60e8b" width="25"></a> - <a href="https://github.com/MatheusLustosa/FDS"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="20"></a>
 - **Rodrigo Guimarães** - <a href="mailto:rgp2@cesar.school"><img src="https://github.com/user-attachments/assets/d910e050-b74b-4dfd-9c58-bd3e6be60e8b" width="25"></a> - <a href="https://www.linkedin.com/in/rodrigo-guimar%C3%A3es-6aa431201/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="20"></a>
-- **Guilherme Vinicius** - <a href="mailto:gvrs@cesar.school"><img src="https://github.com/user-attachments/assets/d910e050-b74b-4dfd-9c58-bd3e6be60e8b" width="25"></a> - <a href="https://github.com/MatheusLustosa/FDS"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="20"></a>
+- **Guilherme Vinicius** - <a href="mailto:gvrs@cesar.school"><img src="https://github.com/user-attachments/assets/d910e050-b74b-4dfd-9c58-bd3e6be60e8b" width="25"></a> - <a href="https://www.linkedin.com/in/guilherme-vin%C3%ADcius-3a07882b7/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="20"></a>
 
 ## ✨ Contribuição
 <a href="https://github.com/MatheusLustosa/FDS/graphs/contributors">
