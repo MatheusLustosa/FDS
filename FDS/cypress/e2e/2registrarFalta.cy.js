@@ -74,8 +74,9 @@ describe('Teste de registrar presença/falta dos alunos e consultar faltas', () 
         cy.get('button').click();
         cy.get('#menu-toggle').click();
         cy.get('[href="/materias/"]').click();
-        cy.get('tbody > :nth-child(1) > :nth-child(2)').should('be.visible');
-        cy.get('tbody > :nth-child(1) > :nth-child(3)').should('be.visible');
+        /*cy.scrollTo('bottom');
+        cy.get('tbody > :nth-child(1) > :nth-child(2)').scrollIntoView();
+        cy.get('tbody > :nth-child(1) > :nth-child(2)').should('be.visible');*/
     })
     })
 

@@ -1,4 +1,4 @@
-let data = '2024-10-26';
+let data = '2024-11-26';
 
 describe('Teste de calendário acadêmico', () => {
     before(() => {
@@ -22,7 +22,7 @@ describe('Teste de calendário acadêmico', () => {
         cy.get(':nth-child(3) > input').type('123');
         cy.get('button').click();
         cy.get('#menu-toggle').click();
-        cy.get('[href="/calendario/10/2024/"]').click();
+        cy.get('[href="/calendario/11/2024/"]').click();
     })
 
     it('Evento aparece no dia que foi registrado pelo usuário', () => {
@@ -33,7 +33,7 @@ describe('Teste de calendário acadêmico', () => {
 
         //let evento = cy.get(`:nth-child(${(dia+8)})`).find('#descricao_evento').last()
         //cy.get(evento).invoke('text').should(evento => expect(evento).to.eq('Entrega 3 FDS'))
-        cy.get(':nth-child(34)').children().last().invoke('text').should('have.string', 'Entrega 3 FDS')
+        cy.get(':nth-child(37)').children().last().invoke('text').should('have.string', 'Entrega 3 FDS')
 
 
     })
