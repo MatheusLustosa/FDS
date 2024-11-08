@@ -70,8 +70,14 @@ O AlphaTech University será um portal acadêmico inovador, projetado para ofere
 <details>
 <summary>Entrega 4</summary>
 <ul>
+    <li><a href="">Screencast - Entrega 4</a></li>
+    <li><a href="imgdump2/bugtrackerABERTO.jpg">Bug Tracker Aberto</a></li>
+    <li><a href="imgdump2/bugtrackerFECHADO.jpeg">Bug Tracker Fechado</a></li>
     <li><a href="https://github.com/MatheusLustosa/FDS/blob/main/contributing.md">contributing.md</a></li>
     <li><a href="https://youtu.be/bRqVHxtG86Q">Screencast do Protótipo Lo-Fi da Sprint 3</a></li>
+    <li><a href="imgdump2/quadrosprint3-1.png">Print do Quadro da Sprint 3 - Primeira Parte </a></li>
+    <li><a href="imgdump2/quadrosprint3-2.png">Print do Quadro da Sprint 3 - Segunda Parte </a></li>
+    <li><a href="imgdump2/backlog-entrega4.png">Print do Backlog da Sprint 3 </a></li>
 </ul>
 </details>
 
