@@ -71,6 +71,7 @@ O AlphaTech University será um portal acadêmico inovador, projetado para ofere
 <summary>Entrega 4</summary>
 <ul>
     <li><a href="https://youtu.be/MgJDUu12bQk">Screencast - Entrega 4</a></li>
+    <li><a href="https://youtu.be/jRZ2DCIKG9Y">Screencast - Pipeline dos testes E2E, Build & Deploy</a></li>
     <li><a href="imgdump2/bugtrackerABERTO.jpg">Bug Tracker Aberto</a></li>
     <li><a href="imgdump2/bugtrackerFECHADO.jpeg">Bug Tracker Fechado</a></li>
     <li><a href="https://github.com/MatheusLustosa/FDS/blob/main/contributing.md">contributing.md</a></li>
