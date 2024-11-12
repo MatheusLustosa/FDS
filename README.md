@@ -80,6 +80,7 @@ O AlphaTech University será um portal acadêmico inovador, projetado para ofere
     <li><a href="imgdump2/quadrosprint3-1.png">Print do Quadro da Sprint 3 - Primeira Parte </a></li>
     <li><a href="imgdump2/quadrosprint3-2.png">Print do Quadro da Sprint 3 - Segunda Parte </a></li>
     <li><a href="imgdump2/backlog-entrega4.png">Print do Backlog da Sprint 3 </a></li>
+    <li><a href="https://www.canva.com/design/DAGVixU9HqU/yywgShTAWNfpZSu1buV_dA/edit?utm_content=DAGVixU9HqU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Print do Backlog da Sprint 3 </a></li>
 </ul>
 </details>
 
